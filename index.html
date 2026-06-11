@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dataverse Translation Tool</title>
+</head>
+<body>
+  <header>
+    <h1>&#127760; Dataverse Translation Tool</h1>
+    <div class="header-actions">
+      <div class="solution-picker">
+        <select id="solutionName">
+          <option value="">-- Select solution --</option>
+        </select>
+        <button id="btnLoadSolutions" class="btn-icon" title="Reload solutions">&#128260;</button>
+      </div>
+      <button id="btnLoad" class="btn-primary">&#128229; Export &amp; Load</button>
+      <button id="btnImport" class="btn-secondary" disabled>&#128640; Import</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside id="sidebar">
+      <div id="entityList"><p class="muted">Load a solution first...</p></div>
+    </aside>
+
+    <main>
+      <div id="tabBar" class="tab-bar"></div>
+      <div class="toolbar" id="toolbar"></div>
+
+      <div id="tableContainer">
+        <p class="empty-state">Select a solution and click "Export &amp; Load" to begin.</p>
+      </div>
+
+      <div class="status-bar">
+        <span id="importStatus"></span>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "name": "@pptb/dataverse-translation-tool",
+  "version": "1.0.0",
+  "type": "module",
+  "displayName": "Dataverse Translation Tool",
+  "description": "Export, edit, and import Dataverse solution translations with metadata-aware context and configurable target language.",
+  "author": "Ramyar Hassani - Denmark",
+  "main": "index.html",
+  "icon": "icons/tool.svg",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ramyar Hassani",
+      "url": "https://github.com/ramyarhassani"
+    }
+  ],
+  "homepage": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramyarhassani/pptb-dataverse-translation-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool/issues"
+  },
+  "keywords": [
+    "powerplatform",
+    "dataverse",
+    "toolbox",
+    "translation",
+    "localization",
+    "dynamics-365"
+  ],
+  "features": {
+    "minAPI": "1.2.0"
+  },
+  "configurations": {
+    "repository": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool",
+    "website": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool#readme",
+    "readmeUrl": "https://raw.githubusercontent.com/ramyarhassani/pptb-dataverse-translation-tool/main/README.md"
+  },
+  "files": [
+    "dist",
+    "npm-shrinkwrap.json"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "validate": "pptb-validate",
+    "finalize-package": "npm run validate && npm run build && npm shrinkwrap"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@pptb/types": "^1.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.11"
+  }
+}
+
