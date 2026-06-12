@@ -1,6 +1,6 @@
 {
-  "name": "@pptb/dataverse-translation-tool",
-  "version": "1.0.0",
+  "name": "dataverse-translation-tool",
+  "version": "1.0.1",
   "type": "module",
   "displayName": "Dataverse Translation Tool",
   "description": "Export, edit, and import Dataverse solution translations with metadata-aware context and configurable target language.",
@@ -14,13 +14,13 @@
       "url": "https://github.com/ramyarhassani"
     }
   ],
-  "homepage": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool#readme",
+  "homepage": "https://github.com/ramyarhassani/dataverse-translation-tool#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramyarhassani/pptb-dataverse-translation-tool.git"
+    "url": "git+https://github.com/ramyarhassani/dataverse-translation-tool.git"
   },
   "bugs": {
-    "url": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool/issues"
+    "url": "https://github.com/ramyarhassani/dataverse-translation-tool/issues"
   },
   "keywords": [
     "powerplatform",
@@ -34,9 +34,9 @@
     "minAPI": "1.2.0"
   },
   "configurations": {
-    "repository": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool",
-    "website": "https://github.com/ramyarhassani/pptb-dataverse-translation-tool#readme",
-    "readmeUrl": "https://raw.githubusercontent.com/ramyarhassani/pptb-dataverse-translation-tool/main/README.md"
+    "repository": "https://github.com/ramyarhassani/dataverse-translation-tool",
+    "website": "https://github.com/ramyarhassani/dataverse-translation-tool#readme",
+    "readmeUrl": "https://raw.githubusercontent.com/ramyarhassani/dataverse-translation-tool/main/README.md"
   },
   "files": [
     "dist",
@@ -58,4 +58,3 @@
     "vite": "^7.1.11"
   }
 }
-
