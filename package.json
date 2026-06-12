@@ -1,6 +1,6 @@
 {
   "name": "dataverse-translation-tool",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "displayName": "Dataverse Translation Tool",
   "description": "Export, edit, and import Dataverse solution translations with metadata-aware context and configurable target language.",

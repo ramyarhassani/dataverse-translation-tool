@@ -31,7 +31,9 @@ export function initDebugLog(): void {
   logContainer.querySelector('#debugToggle')?.addEventListener('click', () => {
     logContainer!.classList.toggle('collapsed');
     const btn = logContainer!.querySelector('#debugToggle')!;
-    btn.textContent = logContainer!.classList.contains('collapsed') ? '▲' : '▼';
+    const isCollapsed = logContainer!.classList.contains('collapsed');
+    btn.textContent = isCollapsed ? '▲' : '▼';
+    document.documentElement.style.setProperty('--log-panel-height', isCollapsed ? '40px' : '250px');
   });
 
   logContainer.querySelector('#debugClear')?.addEventListener('click', () => {

@@ -284,6 +284,7 @@ aside {
   border-right: 1px solid var(--colorNeutralStroke2);
   overflow-y: auto;
   padding: var(--spacingVerticalL) var(--spacingHorizontalM);
+  padding-bottom: var(--log-panel-height, 250px);
 }
 
 aside h3 {
@@ -350,6 +351,7 @@ main {
   flex-direction: column;
   overflow: hidden;
   background: var(--colorNeutralBackground2);
+  padding-bottom: var(--log-panel-height, 250px);
 }
 
 /* === Toolbar === */
