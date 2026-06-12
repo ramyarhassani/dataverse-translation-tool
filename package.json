@@ -1,6 +1,6 @@
 {
   "name": "dataverse-translation-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "displayName": "Dataverse Translation Tool",
   "description": "Export, edit, and import Dataverse solution translations with metadata-aware context and configurable target language.",
@@ -31,7 +31,8 @@
     "dynamics-365"
   ],
   "features": {
-    "minAPI": "1.2.0"
+    "minAPI": "1.2.0",
+    "multiConnection": "optional"
   },
   "configurations": {
     "repository": "https://github.com/ramyarhassani/dataverse-translation-tool",
